@@ -8,8 +8,7 @@ public class MydatabaseConnect {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/lulu02",
-            "root", "ict!1234");
+        
         Statement statement;
         statement = connection.createStatement();
         ResultSet resultSet;
